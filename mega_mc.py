@@ -1,5 +1,5 @@
-import mc.minecraft as minecraft
-import mc.block as block
+import mcpi.minecraft as minecraft
+import mcpi.block as block
 
 class MegaMinecraft:
 
@@ -7,7 +7,7 @@ class MegaMinecraft:
 		self.mc = mc
 
 	def move_player(self, x, y, z):
-		self.mc.setPos(x, y, z)
+		self.mc.player.setPos(x, y, z)
 
 	def chat(self, msg):
 		self.mc.postToChat(msg)

@@ -1,1 +1,4 @@
 mcpi/*
+*.aux
+*.log
+*.synctex
